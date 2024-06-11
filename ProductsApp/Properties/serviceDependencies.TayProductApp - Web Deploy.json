@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/TayProductApp/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsProductContext_83D7AEE18C",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tayproductdb/databases/productdb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ProductContext"
+    }
+  }
+}
